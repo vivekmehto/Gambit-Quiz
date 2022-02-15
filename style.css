@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
+}
+a {
+  color: var(--text-color);
+}
+
+.header-nav ul {
+  font-size: 1.2rem;
+}
+
+.main-container {
+  min-height: 80vh;
+}
+
+.category-container {
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: var(--primary-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-head {
+  color: var(--white);
+}
+
+.footer-icons i {
+  color: var(--white);
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0.5rem 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.logo a:hover {
+  color: var(--text-color);
+  transition: 0.5s;
+}
+
+.header-nav ul li a:hover {
+  color: var(--text-color);
+  transition: 0.5s;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.footer-icons i:hover {
+  color: var(--black);
+}
+
+@media only screen and (max-width: 668px) {
+  .footer-icons i {
+    font-size: 1rem;
+  }
+  .main-container {
+    margin: 1rem;
+  }
+  .main-container .head-1 {
+    font-size: 1.5rem;
+  }
+}
